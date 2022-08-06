@@ -79,6 +79,10 @@ header{
     border: none;
     padding: 10px 10px;
     border-radius: 2px;
+    cursor: grab;
+}
+.btn-div:hover{
+    background-color: #147aba;
 }
 
 .download-icon{
@@ -224,7 +228,6 @@ header{
     padding: 3px 6px;
     border-radius: 4px;
 }
-
 .card-right-btn >a{
     text-decoration: none;
     color: #FFFFFF;
@@ -279,6 +282,8 @@ header{
   .project-container{
     padding-left: 5px;
     padding-right: 5px;
+    align-items: center;
+    justify-content: space-between;
   }
   .project-row{
     display: flex;
